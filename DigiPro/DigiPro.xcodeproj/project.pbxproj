@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9503E5B2710F9E1008B6EC8 /* DigiProApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9503E5A2710F9E1008B6EC8 /* DigiProApp.swift */; };
+		C9503E5D2710F9E1008B6EC8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9503E5C2710F9E1008B6EC8 /* ContentView.swift */; };
+		C9503E5F2710F9E2008B6EC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9503E5E2710F9E2008B6EC8 /* Assets.xcassets */; };
+		C9503E622710F9E2008B6EC8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9503E612710F9E2008B6EC8 /* Preview Assets.xcassets */; };
+		C9503E642710F9E2008B6EC8 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9503E632710F9E2008B6EC8 /* Persistence.swift */; };
+		C9503E672710F9E2008B6EC8 /* DigiPro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C9503E652710F9E2008B6EC8 /* DigiPro.xcdatamodeld */; };
+		C9503E722710F9E2008B6EC8 /* DigiProTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9503E712710F9E2008B6EC8 /* DigiProTests.swift */; };
+		C9503E7D2710F9E2008B6EC8 /* DigiProUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9503E7C2710F9E2008B6EC8 /* DigiProUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9503E6E2710F9E2008B6EC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9503E4F2710F9E1008B6EC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9503E562710F9E1008B6EC8;
+			remoteInfo = DigiPro;
+		};
+		C9503E792710F9E2008B6EC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9503E4F2710F9E1008B6EC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9503E562710F9E1008B6EC8;
+			remoteInfo = DigiPro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C9503E572710F9E1008B6EC8 /* DigiPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigiPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9503E5A2710F9E1008B6EC8 /* DigiProApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigiProApp.swift; sourceTree = "<group>"; };
+		C9503E5C2710F9E1008B6EC8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C9503E5E2710F9E2008B6EC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9503E612710F9E2008B6EC8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C9503E632710F9E2008B6EC8 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		C9503E662710F9E2008B6EC8 /* DigiPro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DigiPro.xcdatamodel; sourceTree = "<group>"; };
+		C9503E682710F9E2008B6EC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9503E6D2710F9E2008B6EC8 /* DigiProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigiProTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9503E712710F9E2008B6EC8 /* DigiProTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigiProTests.swift; sourceTree = "<group>"; };
+		C9503E732710F9E2008B6EC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9503E782710F9E2008B6EC8 /* DigiProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigiProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9503E7C2710F9E2008B6EC8 /* DigiProUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigiProUITests.swift; sourceTree = "<group>"; };
+		C9503E7E2710F9E2008B6EC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9503E542710F9E1008B6EC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9503E6A2710F9E2008B6EC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9503E752710F9E2008B6EC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9503E4E2710F9E1008B6EC8 = {
+			isa = PBXGroup;
+			children = (
+				C9503E592710F9E1008B6EC8 /* DigiPro */,
+				C9503E702710F9E2008B6EC8 /* DigiProTests */,
+				C9503E7B2710F9E2008B6EC8 /* DigiProUITests */,
+				C9503E582710F9E1008B6EC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9503E582710F9E1008B6EC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9503E572710F9E1008B6EC8 /* DigiPro.app */,
+				C9503E6D2710F9E2008B6EC8 /* DigiProTests.xctest */,
+				C9503E782710F9E2008B6EC8 /* DigiProUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9503E592710F9E1008B6EC8 /* DigiPro */ = {
+			isa = PBXGroup;
+			children = (
+				C9503E5A2710F9E1008B6EC8 /* DigiProApp.swift */,
+				C9503E5C2710F9E1008B6EC8 /* ContentView.swift */,
+				C9503E5E2710F9E2008B6EC8 /* Assets.xcassets */,
+				C9503E632710F9E2008B6EC8 /* Persistence.swift */,
+				C9503E682710F9E2008B6EC8 /* Info.plist */,
+				C9503E652710F9E2008B6EC8 /* DigiPro.xcdatamodeld */,
+				C9503E602710F9E2008B6EC8 /* Preview Content */,
+			);
+			path = DigiPro;
+			sourceTree = "<group>";
+		};
+		C9503E602710F9E2008B6EC8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C9503E612710F9E2008B6EC8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C9503E702710F9E2008B6EC8 /* DigiProTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9503E712710F9E2008B6EC8 /* DigiProTests.swift */,
+				C9503E732710F9E2008B6EC8 /* Info.plist */,
+			);
+			path = DigiProTests;
+			sourceTree = "<group>";
+		};
+		C9503E7B2710F9E2008B6EC8 /* DigiProUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C9503E7C2710F9E2008B6EC8 /* DigiProUITests.swift */,
+				C9503E7E2710F9E2008B6EC8 /* Info.plist */,
+			);
+			path = DigiProUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9503E562710F9E1008B6EC8 /* DigiPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9503E812710F9E2008B6EC8 /* Build configuration list for PBXNativeTarget "DigiPro" */;
+			buildPhases = (
+				C9503E532710F9E1008B6EC8 /* Sources */,
+				C9503E542710F9E1008B6EC8 /* Frameworks */,
+				C9503E552710F9E1008B6EC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DigiPro;
+			productName = DigiPro;
+			productReference = C9503E572710F9E1008B6EC8 /* DigiPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9503E6C2710F9E2008B6EC8 /* DigiProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9503E842710F9E2008B6EC8 /* Build configuration list for PBXNativeTarget "DigiProTests" */;
+			buildPhases = (
+				C9503E692710F9E2008B6EC8 /* Sources */,
+				C9503E6A2710F9E2008B6EC8 /* Frameworks */,
+				C9503E6B2710F9E2008B6EC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9503E6F2710F9E2008B6EC8 /* PBXTargetDependency */,
+			);
+			name = DigiProTests;
+			productName = DigiProTests;
+			productReference = C9503E6D2710F9E2008B6EC8 /* DigiProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C9503E772710F9E2008B6EC8 /* DigiProUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9503E872710F9E2008B6EC8 /* Build configuration list for PBXNativeTarget "DigiProUITests" */;
+			buildPhases = (
+				C9503E742710F9E2008B6EC8 /* Sources */,
+				C9503E752710F9E2008B6EC8 /* Frameworks */,
+				C9503E762710F9E2008B6EC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9503E7A2710F9E2008B6EC8 /* PBXTargetDependency */,
+			);
+			name = DigiProUITests;
+			productName = DigiProUITests;
+			productReference = C9503E782710F9E2008B6EC8 /* DigiProUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9503E4F2710F9E1008B6EC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					C9503E562710F9E1008B6EC8 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					C9503E6C2710F9E2008B6EC8 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = C9503E562710F9E1008B6EC8;
+					};
+					C9503E772710F9E2008B6EC8 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = C9503E562710F9E1008B6EC8;
+					};
+				};
+			};
+			buildConfigurationList = C9503E522710F9E1008B6EC8 /* Build configuration list for PBXProject "DigiPro" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9503E4E2710F9E1008B6EC8;
+			productRefGroup = C9503E582710F9E1008B6EC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9503E562710F9E1008B6EC8 /* DigiPro */,
+				C9503E6C2710F9E2008B6EC8 /* DigiProTests */,
+				C9503E772710F9E2008B6EC8 /* DigiProUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9503E552710F9E1008B6EC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9503E622710F9E2008B6EC8 /* Preview Assets.xcassets in Resources */,
+				C9503E5F2710F9E2008B6EC8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9503E6B2710F9E2008B6EC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9503E762710F9E2008B6EC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9503E532710F9E1008B6EC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9503E642710F9E2008B6EC8 /* Persistence.swift in Sources */,
+				C9503E5D2710F9E1008B6EC8 /* ContentView.swift in Sources */,
+				C9503E672710F9E2008B6EC8 /* DigiPro.xcdatamodeld in Sources */,
+				C9503E5B2710F9E1008B6EC8 /* DigiProApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9503E692710F9E2008B6EC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9503E722710F9E2008B6EC8 /* DigiProTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9503E742710F9E2008B6EC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9503E7D2710F9E2008B6EC8 /* DigiProUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9503E6F2710F9E2008B6EC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9503E562710F9E1008B6EC8 /* DigiPro */;
+			targetProxy = C9503E6E2710F9E2008B6EC8 /* PBXContainerItemProxy */;
+		};
+		C9503E7A2710F9E2008B6EC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9503E562710F9E1008B6EC8 /* DigiPro */;
+			targetProxy = C9503E792710F9E2008B6EC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C9503E7F2710F9E2008B6EC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C9503E802710F9E2008B6EC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9503E822710F9E2008B6EC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DigiPro/Preview Content\"";
+				DEVELOPMENT_TEAM = VZV6688XCU;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DigiPro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prueba.personData.DigiPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9503E832710F9E2008B6EC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DigiPro/Preview Content\"";
+				DEVELOPMENT_TEAM = VZV6688XCU;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DigiPro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prueba.personData.DigiPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C9503E852710F9E2008B6EC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VZV6688XCU;
+				INFOPLIST_FILE = DigiProTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prueba.personData.DigiProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DigiPro.app/DigiPro";
+			};
+			name = Debug;
+		};
+		C9503E862710F9E2008B6EC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VZV6688XCU;
+				INFOPLIST_FILE = DigiProTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prueba.personData.DigiProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DigiPro.app/DigiPro";
+			};
+			name = Release;
+		};
+		C9503E882710F9E2008B6EC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VZV6688XCU;
+				INFOPLIST_FILE = DigiProUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prueba.personData.DigiProUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DigiPro;
+			};
+			name = Debug;
+		};
+		C9503E892710F9E2008B6EC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VZV6688XCU;
+				INFOPLIST_FILE = DigiProUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prueba.personData.DigiProUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DigiPro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9503E522710F9E1008B6EC8 /* Build configuration list for PBXProject "DigiPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9503E7F2710F9E2008B6EC8 /* Debug */,
+				C9503E802710F9E2008B6EC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9503E812710F9E2008B6EC8 /* Build configuration list for PBXNativeTarget "DigiPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9503E822710F9E2008B6EC8 /* Debug */,
+				C9503E832710F9E2008B6EC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9503E842710F9E2008B6EC8 /* Build configuration list for PBXNativeTarget "DigiProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9503E852710F9E2008B6EC8 /* Debug */,
+				C9503E862710F9E2008B6EC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9503E872710F9E2008B6EC8 /* Build configuration list for PBXNativeTarget "DigiProUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9503E882710F9E2008B6EC8 /* Debug */,
+				C9503E892710F9E2008B6EC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C9503E652710F9E2008B6EC8 /* DigiPro.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C9503E662710F9E2008B6EC8 /* DigiPro.xcdatamodel */,
+			);
+			currentVersion = C9503E662710F9E2008B6EC8 /* DigiPro.xcdatamodel */;
+			path = DigiPro.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C9503E4F2710F9E1008B6EC8 /* Project object */;
+}
